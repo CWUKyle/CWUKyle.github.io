@@ -106,6 +106,13 @@ h5 {
     
 }
 
+span:nth-child(){
+    padding-top:0rem;
+    padding-bottom:0rem;
+    padding-left:.5rem;
+    padding-right:.5rem;
+}
+
 /* Section & Paragraph */
 
 section {
@@ -150,7 +157,6 @@ figcaption {
 footer {
     padding:1rem;
     border-top:2rem;
-    border-bottom:0rem;
     border-style:solid;
     border-color:#333;
 }
