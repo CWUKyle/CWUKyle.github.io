@@ -106,7 +106,7 @@ h5 {
     
 }
 
-span:nth-child(){
+span:nth-child(n){
     padding-top:0rem;
     padding-bottom:0rem;
     padding-left:.5rem;
