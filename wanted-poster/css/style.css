@@ -150,6 +150,7 @@ figcaption {
 footer {
     padding:1rem;
     border-top:2rem;
+    border-bottom:0rem;
     border-style:solid;
     border-color:#333;
 }
