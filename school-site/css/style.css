@@ -156,15 +156,23 @@ a:hover {
 
 /* List Styling */
 ul {
-
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-left: 0rem;
+    margin-right: 0rem;
+    list-style-type: square;
 }
 
 ol {
-
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-left: 0rem;
+    margin-right: 0rem;
+    list-style-type: lower-alpha;
 }
 
 .long-list a:hover {
-
+    text-transform: uppercase;
 }
 
 /* Navigation Menu */
