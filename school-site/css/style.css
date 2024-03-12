@@ -80,14 +80,14 @@ header, footer {
 /* Imported Typfaces */
 @font-face {
     font-family: Josefinslab;
-    src:url(D:\Bruh\CWUKyle.github.io\school-site\fontsjosefinslab-regular.ttf) format('truetype');
+    src:url(D:\Bruh\CWUKyle.github.io\school-site\fonts\josefinslab-regular.ttf) format('truetype');
     font-weight:normal;
     font-style:normal;
 }
 
 @font-face {
     font-family: Montserrat;
-    src:url(D:\Bruh\CWUKyle.github.io\school-site\fontsmonsterrat.ttf) format('truetype');
+    src:url(D:\Bruh\CWUKyle.github.io\school-site\font\smonsterrat.ttf) format('truetype');
     font-weight:normal;
     font-style:normal;
 }
@@ -102,7 +102,7 @@ h1 {
 }
 
 h2 {
-    font-family:Montserrat, Arial, sans-serif;
+    font-family: Montserrat, Arial, sans-serif;
 }
 
 h2 + p {
