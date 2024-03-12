@@ -35,7 +35,7 @@ figure {
 }
 
 figure img {
-    width:500%;
+    width:100%;
     max-width:25rem;
 }
 
@@ -100,7 +100,7 @@ html {
 h1 {
     letter-spacing: .125rem;
     font-family: Josefinslab, arial, serif;
-    font-size: 3.75rem;
+    font-size: 50rem;
     margin: 1.125rem;
     text-align: center;
 
