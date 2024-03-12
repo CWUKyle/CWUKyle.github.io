@@ -79,30 +79,30 @@ header, footer {
 
 /* Imported Typfaces */
 @font-face {
-    font-family: "Josefinslab";
-    src:url("fonts/josefinslab-regular.ttf") format('truetype');
+    font-family: Josefinslab;
+    src:url(fonts/josefinslab-regular.ttf) format('truetype');
     font-weight:normal;
     font-style:normal;
 }
 
 @font-face {
-    font-family: "Montserrat";
-    src:url("fonts/monsterrat.ttf") format('truetype');
+    font-family: Montserrat;
+    src:url(fonts/monsterrat.ttf) format('truetype');
     font-weight:normal;
     font-style:normal;
 }
 
 /* Typography Styles */
 html {
-    font-family: "Montserrat", Arial, sans-serif;
+    font-family: Montserrat, Arial, sans-serif;
 }
 
 h1 {
-    font-family: "Montserrat", Arial, sans-serif;
+    font-family: Montserrat, Arial, sans-serif;
 }
 
 h2 {
-    font-family: "Montserrat", Arial, sans-serif;
+    font-family:Montserrat, Arial, sans-serif;
 }
 
 h2 + p {
@@ -110,7 +110,7 @@ h2 + p {
 }
 
 p {
-    font-family: "Montserrat", Arial, sans-serif;
+    font-family: Montserrat, Arial, sans-serif;
 }
 
 li {
