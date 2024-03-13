@@ -97,6 +97,7 @@ h4 {
 }
 
 h5 {
+    font-weight:normal;
     font-size:1rem;
     margin-top:.25rem;
     padding:.5rem;
@@ -157,6 +158,9 @@ figcaption {
 footer {
     padding:1rem;
     border-top:2rem;
+    border-bottom:0rem;
+    border-left:0rem;
+    border-right:0rem;
     border-style:solid;
     border-color:#333;
 }
