@@ -47,26 +47,48 @@
 
 
 /* ------ START WRITING YOUR CODE BELOW ------ */
+@font-face {
+    font-family: Montserrat;
+    src:url(../fonts/sans-serif/montserrat-regular.ttf) format(truetype);
+    font-weight: normal;
+    font-style: normal;
+}
 
 html {
     font-size: 16px;
 }
 
 body{
-
+    margin: 1rem auto;
+    width: 90%;
+    min-width: 112rem;
 }
 
 header {
-    border-bottom: 2rem solid #0102ad;
-    margin-bottom: 5rem;
+    border-image: linear-gradient(#0102ad, #FFF)400;
+    border-bottom: 1rem solid;
+    margin-bottom: 3rem;
+    padding-bottom: 29rem;
 }
 
 video {
+    float: right;
+    padding-top: 5rem;
+}
 
+.highlight {
+    color: #FFF;
+    background-image: linear-gradient(#1091fc,#0102ad);
+    padding-left: 2rem;
+    padding-right: 2rem;
 }
 
 h1 {
-
+    font-family: Montserrat, arial, sans-serif;
+    float: left;
+    font-size: 7rem;
+    padding-top: 6rem;
+    padding-left: 2rem;
 }
 
 h2 {
