@@ -54,8 +54,16 @@
     font-style: normal;
 }
 
+@font-face {
+    font-family: TestFont;
+    src:url(../fonts/serif/robotoslab-regular.ttf) format('truetype');
+    font-weight:normal;
+    font-style:normal;
+}
+
 html {
     font-size: 16px;
+    font-family: TestFont, arial, serif;
 }
 
 body{
@@ -82,13 +90,54 @@ video {
     padding-left: 2rem;
     padding-right: 2rem;
 }
+nav {
+    font-size: 1.1rem;
+    float: left;
+    width: 100%;
+    min-width: 112rem;
+    border: .3rem solid #0102ad;
+    padding: .3rem;
+    border-left: 0rem;
+    border-right: 0rem;
+}
+nav a {
+    text-decoration: none;
+    display: inline-block;
+    width: 12rem;
+    height: 1.5rem;
+    text-align: center;
+    padding: .35rem;
+    margin-left: 4.5rem;
+    margin-right: 4.5rem;
+    border: .2rem solid #1be9fcf5;
+}
+
+nav a:focus,
+nav a:hover {
+    color: #0102ad;
+    background-color: #1be9fcf5;
+}
+
+nav a:active {
+    color: #fdff9f;
+    background-color: #000;
+    border-color: #000;
+}
 
 h1 {
     font-family: Montserrat, arial, sans-serif;
     float: left;
     font-size: 7rem;
-    padding-top: 6rem;
-    padding-left: 2rem;
+    padding-top: 7rem;
+    padding-left: 5rem;
+}
+
+.blog-text {
+    margin: 9rem 9rem;
+}
+
+.main-section{
+
 }
 
 h2 {
